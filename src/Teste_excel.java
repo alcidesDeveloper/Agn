@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+/*
 package teste_excel;
 import java.io.File;
 import java.io.IOException;
@@ -11,15 +12,18 @@ import jxl.write.Label;
 import jxl.write.WritableSheet;
 import jxl.write.WritableWorkbook;
 import jxl.write.WriteException;
+*/
 /**
  *
  * @author alcides.elneto1
  */
+/*
 public class Teste_excel {
-
+*/
     /**
      * @param args the command line arguments
      */
+/*
     public static void main(String[] args) throws IOException, WriteException {
         
         Label lbl = new Label(0, 0, "teste");
@@ -49,3 +53,4 @@ public class Teste_excel {
     }
     
 }
+*/
