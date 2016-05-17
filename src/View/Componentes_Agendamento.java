@@ -206,8 +206,8 @@ public class Componentes_Agendamento {
     /**
      * @param tableResultado the tableResultado to set
      */
-    public void setPropriedadesTableResultado(int x, int y, int width, int heigh, DefaultTableModel mod) {
-        tableResultado = new JTable(mod);
+    public void setPropriedadesTableResultado(int x, int y, int width, int heigh) {
+        tableResultado = new JTable();
         tableResultado.setLocation(x, y);
         tableResultado.setSize(width, heigh);
     }

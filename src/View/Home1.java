@@ -254,9 +254,7 @@ public class Home1 extends javax.swing.JFrame {
         agenda.setPropriedadesCmbxServico(406, 98, 120, 26);
         frame.add(agenda.getCmbxServico());
 
-        DefaultTableModel mod = new DefaultTableModel();
-        agenda.setPropriedadesTableResultado(0, 180, 615, 80, mod);
-        mod.addColumn("ID");
+        agenda.setPropriedadesTableResultado(0, 180, 615, 80);
         frame.add(agenda.getTableResultado());
 
         agenda.setPropriedadesBtnAgendar("Agendar", 468, 336, 74, 28);
