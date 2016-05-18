@@ -222,6 +222,7 @@ public class Home1 extends javax.swing.JFrame {
 
     }
 
+    // cria a tela de agendamento
     public void criaAgenda() {
 
         agenda.setPropriedadesLblDia("Dia", 48, 57, 19, 16);
@@ -271,9 +272,27 @@ public class Home1 extends javax.swing.JFrame {
 
         agenda.setPropriedadesBtnPesquisa("Pesquisar", 544, 67, 85, 28);
         frame.add(agenda.getBtnPesquisa());
+        agenda.getBtnPesquisa().addActionListener(new ActionListener(){
+           
+            public void actionPerformed(ActionEvent e){
+                // alexandre aqui você vai inserir a logica da consulta.
+            }
+        
+        
+            
+        });
+        
 
         agenda.setPropriedadesBtnRelatorio("Gerar Relatorio", 548, 336, 112, 28);
         frame.add(agenda.getBtnRelatorio());
+        agenda.getBtnRelatorio().addActionListener(new ActionListener(){
+
+            public void actionPerformed(ActionEvent e) {
+                
+            }
+        
+        });
+        
     }
 
     public void deletaTelaCliente() {
